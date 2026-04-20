@@ -1,0 +1,95 @@
+{
+  "slug": "vibeify",
+  "persona": "Veteran \"Spotify Web API playlist engineer\" expert",
+  "generated_at": "2026-04-20T18:44:53.977Z",
+  "questions": [
+    {
+      "id": "auth_flow",
+      "text": "Which Spotify OAuth flow should vibeify use for user authentication and playlist write access?",
+      "options": [
+        "Authorization Code with PKCE (SPA/client-side)",
+        "Authorization Code with server-side token exchange",
+        "Implicit Grant (legacy, read-only)",
+        "Client Credentials (app-only, no user playlists)",
+        "decide for me",
+        "not sure — defer",
+        "custom"
+      ]
+    },
+    {
+      "id": "playlist_source",
+      "text": "What is the primary input source for generating a playlist's track list in v0.1?",
+      "options": [
+        "Free-text vibe/mood prompt fed to an LLM that returns seed tracks",
+        "User-selected seed tracks/artists/genres via Spotify Recommendations API",
+        "User's existing top tracks/artists (personalization endpoints)",
+        "Audio features targeting (energy, valence, tempo) over a seed set",
+        "Curated editorial/category playlists as the base",
+        "decide for me",
+        "not sure — defer",
+        "custom"
+      ]
+    },
+    {
+      "id": "persistence",
+      "text": "How should generated playlists be persisted and surfaced back to the user?",
+      "options": [
+        "Create a new private playlist on the user's Spotify account via API",
+        "Create a collaborative public playlist on Spotify",
+        "Store locally in vibeify only and export on demand",
+        "Store in vibeify DB with a one-click 'Save to Spotify' action",
+        "decide for me",
+        "not sure — defer",
+        "custom"
+      ]
+    },
+    {
+      "id": "rate_limit_strategy",
+      "text": "How will vibeify handle Spotify Web API rate limits and 429 Retry-After responses?",
+      "options": [
+        "Per-user token bucket with exponential backoff and jitter",
+        "Global queue with a single worker serializing requests",
+        "Cache aggressively (ETags + Redis) and batch endpoints where possible",
+        "Fail fast and surface errors to the user",
+        "decide for me",
+        "not sure — defer",
+        "custom"
+      ]
+    },
+    {
+      "id": "track_dedup_scope",
+      "text": "What deduplication and ordering rules apply when assembling the final playlist?",
+      "options": [
+        "Dedupe by track URI only, preserve generation order",
+        "Dedupe by ISRC to collapse re-releases across markets",
+        "Dedupe by (artist, track name) fuzzy match",
+        "No dedupe; trust the source ordering verbatim",
+        "decide for me",
+        "not sure — defer",
+        "custom"
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "id": "auth_flow",
+      "choice": "decide for me"
+    },
+    {
+      "id": "playlist_source",
+      "choice": "Free-text vibe/mood prompt fed to an LLM that returns seed tracks"
+    },
+    {
+      "id": "persistence",
+      "choice": "decide for me"
+    },
+    {
+      "id": "rate_limit_strategy",
+      "choice": "decide for me"
+    },
+    {
+      "id": "track_dedup_scope",
+      "choice": "decide for me"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "phase": "draft",
+  "files": [
+    {
+      "path": ".samo/.gitignore",
+      "bytes": 69,
+      "tokens": 17,
+      "blob": "d9950aaaf117f8af431711029ca05e8e264a6edf",
+      "included": true,
+      "risk_flags": []
+    },
+    {
+      "path": ".samo/config.json",
+      "bytes": 1181,
+      "tokens": 296,
+      "blob": "76bd274e8954d39ab95992dbf92c4c2321f56737",
+      "included": true,
+      "risk_flags": []
+    },
+    {
+      "path": ".samo/spec/vibeify/state.json",
+      "bytes": 432,
+      "tokens": 108,
+      "blob": "dcf106fa9a8e1ad8c226aefd4117ec23de3f67c5",
+      "included": true,
+      "risk_flags": []
+    }
+  ],
+  "risk_flags": [],
+  "budget": {
+    "phase": "draft",
+    "tokens_used": 421,
+    "tokens_budget": 30000
+  }
+}

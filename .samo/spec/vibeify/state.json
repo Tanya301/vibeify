@@ -1,16 +1,19 @@
 {
   "slug": "vibeify",
-  "phase": "persona",
+  "phase": "draft",
   "round_index": 0,
-  "version": "0.0.0",
-  "persona": null,
+  "version": "0.1.0",
+  "persona": {
+    "skill": "Spotify Web API playlist engineer",
+    "accepted": true
+  },
   "push_consent": null,
   "calibration": null,
   "remote_stale": false,
   "coupled_fallback": false,
   "head_sha": null,
-  "round_state": "lead_terminal",
+  "round_state": "committed",
   "exit": null,
-  "created_at": "2026-04-20T17:41:31.045Z",
-  "updated_at": "2026-04-20T17:41:31.045Z"
+  "created_at": "2026-04-20T18:44:53.977Z",
+  "updated_at": "2026-04-20T18:44:53.977Z"
 }
