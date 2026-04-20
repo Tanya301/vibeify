@@ -8,13 +8,14 @@ See SPEC.md for the full goal statement.
 
 - 1. Persona
 - 2. Idea
-- 3. Scope (v0.1)
+- 3. Scope (v0.2)
 - 4. Interview Decisions
 - 5. Architecture
 - 6. Data Shapes
 - 7. Failure Modes & Handling
 - 8. Non-Goals / Explicit Deferrals
-- 9. Open Questions (resolved or deferred)
+- 9. Testing Strategy
+- 10. Open Questions (resolved or deferred)
 
 ## Next action
 

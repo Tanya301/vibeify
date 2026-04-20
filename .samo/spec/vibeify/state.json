@@ -1,8 +1,8 @@
 {
   "slug": "vibeify",
   "phase": "draft",
-  "round_index": 0,
-  "version": "0.1.0",
+  "round_index": 1,
+  "version": "0.2.0",
   "persona": {
     "skill": "Spotify Web API playlist engineer",
     "accepted": true
@@ -19,5 +19,5 @@
     "round_index": 0
   },
   "created_at": "2026-04-20T18:44:53.977Z",
-  "updated_at": "2026-04-20T18:53:26.659Z"
+  "updated_at": "2026-04-20T18:57:42.546Z"
 }

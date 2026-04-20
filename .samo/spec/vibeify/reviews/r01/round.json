@@ -1,22 +1,16 @@
 {
   "round": 1,
-  "status": "abandoned",
+  "status": "partial",
   "seats": {
     "reviewer_a": {
       "status": "schema_violation",
       "error": {
         "reason": "schema_violation",
-        "message": "Codex adapter timeout: exit 1: Reading prompt from stdin...\nOpenAI Codex v0.121.0 (research preview)\n--------\nworkdir: /home/testuser/vibeify\nmodel: gpt-5.1-codex-max\nprovider: openai\napproval: never\nsandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/testuser/.codex/memories]\nreasoning effort: high\nreasoning summaries: none\nsession id: 019dac3f-5c60-70a0-9aff-82b1e3a6dd2e\n--------\nuser\nYou are a paranoid security/ops engineer reviewing this spec. Focus especially on missing-risk, weak-imple"
+        "message": "Codex adapter timeout: exit 1: Reading prompt from stdin...\nOpenAI Codex v0.121.0 (research preview)\n--------\nworkdir: /home/testuser/vibeify\nmodel: gpt-5.1-codex-max\nprovider: openai\napproval: never\nsandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/testuser/.codex/memories]\nreasoning effort: high\nreasoning summaries: none\nsession id: 019dac41-83b8-74d1-b5c5-d406990c1f93\n--------\nuser\nYou are a paranoid security/ops engineer reviewing this spec. Focus especially on missing-risk, weak-imple"
       }
     },
-    "reviewer_b": {
-      "status": "failed",
-      "error": {
-        "reason": "unknown",
-        "message": "[\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"ambiguity\",\n      \"contradiction\",\n      \"missing-requirement\",\n      \"weak-testing\",\n      \"weak-implementation\",\n      \"missing-risk\",\n      \"unnecessary-scope\"\n    ],\n    \"path\": [\n      \"findings\",\n      16,\n      \"category\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"ambiguity\\\"|\\\"contradiction\\\"|\\\"missing-requirement\\\"|\\\"weak-testing\\\"|\\\"weak-implementation\\\"|\\\"missing-risk\\\"|\\\"unnecessary-scope\\\"\"\n  },\n  {\n    \"code\": "
-      }
-    }
+    "reviewer_b": "ok"
   },
-  "started_at": "2026-04-20T18:53:26.659Z",
-  "completed_at": "2026-04-20T18:53:26.659Z"
+  "started_at": "2026-04-20T18:57:42.546Z",
+  "completed_at": "2026-04-20T18:57:42.546Z"
 }
