@@ -1,6 +1,6 @@
 {
   "slug": "vibeify",
-  "phase": "draft",
+  "phase": "publish",
   "round_index": 1,
   "version": "0.2.0",
   "persona": {
@@ -14,10 +14,12 @@
   "head_sha": null,
   "round_state": "committed",
   "exit": {
-    "code": 4,
-    "reason": "reviewers-exhausted",
-    "round_index": 0
+    "code": 0,
+    "reason": "ready",
+    "round_index": 1
   },
+  "published_at": "2026-04-20T19:05:43.057Z",
+  "published_version": "v0.2",
   "created_at": "2026-04-20T18:44:53.977Z",
-  "updated_at": "2026-04-20T18:57:42.546Z"
+  "updated_at": "2026-04-20T19:05:43.057Z"
 }
