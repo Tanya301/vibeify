@@ -8,7 +8,7 @@ See SPEC.md for the full goal statement.
 
 - 1. Persona
 - 2. Idea
-- 3. Scope (v0.2)
+- 3. Scope (v0.3)
 - 4. Interview Decisions
 - 5. Architecture
 - 6. Data Shapes

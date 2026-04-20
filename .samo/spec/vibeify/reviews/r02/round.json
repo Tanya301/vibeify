@@ -1,0 +1,16 @@
+{
+  "round": 2,
+  "status": "partial",
+  "seats": {
+    "reviewer_a": {
+      "status": "schema_violation",
+      "error": {
+        "reason": "schema_violation",
+        "message": "Codex adapter timeout: exit 1: Reading prompt from stdin...\nOpenAI Codex v0.121.0 (research preview)\n--------\nworkdir: /home/testuser/vibeify\nmodel: gpt-5.1-codex-max\nprovider: openai\napproval: never\nsandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/testuser/.codex/memories]\nreasoning effort: high\nreasoning summaries: none\nsession id: 019dac71-9f9b-7cd3-96f2-3b15d49d0c30\n--------\nuser\nYou are a paranoid security/ops engineer reviewing this spec. Focus especially on missing-risk, weak-imple"
+      }
+    },
+    "reviewer_b": "ok"
+  },
+  "started_at": "2026-04-20T19:50:14.261Z",
+  "completed_at": "2026-04-20T19:50:14.261Z"
+}
