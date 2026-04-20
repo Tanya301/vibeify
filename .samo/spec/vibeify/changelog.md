@@ -6,3 +6,5 @@
 - Persona: Veteran "Spotify Web API playlist engineer" expert
 
 - user-edit before round 1
+
+- user-edit before round 1
